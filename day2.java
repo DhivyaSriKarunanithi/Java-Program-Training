@@ -289,7 +289,7 @@ public class Main {
     }
 }
 
-//16. Fun Character Case Converter 
+//16. Fun Character Case Converter
 
 import java.util.*;
 public class Main {
