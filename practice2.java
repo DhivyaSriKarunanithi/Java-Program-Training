@@ -1,4 +1,4 @@
-git//1. First and second maximum
+//1. First and second maximum
 
 import java.util.Scanner;
 
