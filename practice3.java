@@ -57,3 +57,63 @@ class Solution {
         }
     }
 }
+
+//4.power of two-leetcode:231
+class Solution {
+    public boolean isPowerOfTwo(int n) {
+        if(n==1){
+            return true;
+        }
+        if(n<=0||n%2!=0){
+            return false;
+        }
+        while(n>2){
+            if(n%2!=0){
+                return false;
+            }else{
+                n=n/2;
+            }
+        }
+        return true;
+    }
+}
+
+//5.Power of three-leetcode:326
+class Solution {
+    public boolean isPowerOfThree(int n) {
+        if(n==1){
+            return true;
+        }
+        if(n<=0||n%3!=0){
+            return false;
+        }
+        while(n>1){
+            if(n%3!=0){
+                return false;
+            }else{
+                n=n/3;
+            }
+        }
+        return true;
+    }
+}
+
+//6.power of four-leetcode:342
+class Solution {
+    public boolean isPowerOfFour(int n) {
+        if(n==1){
+            return true;
+        }
+        if(n<=0||n%4!=0){
+            return false;
+        }
+        while(n>1){
+            if(n%4!=0){
+                return false;
+            }else{
+                n=n/4;
+            }
+        }
+        return true;
+    }
+}
